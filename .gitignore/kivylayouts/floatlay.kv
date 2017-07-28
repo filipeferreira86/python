@@ -1,0 +1,18 @@
+# Para definir informações padrão para um objeto basta informar a classe entre <tags> e os valores:
+
+<Button>:
+# rgb, alfa(transparencia)
+    color: 1, 0, 0, 1
+    font_size: 32
+    size_hint: .4, .3
+
+FloatLayout:
+    Button:
+        text: 'Ola!!'
+        pos_hint: {'x': 0, 'top': 1}
+        on_press: print('Ola!!')
+
+    Button:
+        text: 'Xau!!'
+        pos_hint: {'right': 1, 'y': 0}
+        on_press: print('Xau!!')

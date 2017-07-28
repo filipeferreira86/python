@@ -1,0 +1,24 @@
+BoxLayout:
+    orientation: 'vertical'
+    spacing: 50
+    # primeiro esquerda, topo direita, baixo
+    padding: [20, 20, 20, 20]
+
+    Button:
+    # para os casos onde eu quero tamanhos diferentes usar size_hint: [x, y]
+        text: 'Ok'
+        on_press: print('Ok pressionado')
+        size_hint: [.2, 1]
+        pos_hint:{'x':.1}
+
+    Button:
+        text: 'NOk'
+        on_press: print('NOk pressionado')
+        size_hint: [.3, .2]
+        pos_hint:{'x':.3}
+
+    Button:
+        text: 'Cancelar'
+        on_press: print('Cancelar pressionado')
+        size_hint: [.4, 1]
+        pos_hint:{'x':.5}

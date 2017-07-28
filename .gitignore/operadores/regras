@@ -1,0 +1,8 @@
+# Variaveis
+# Nomes de variaveis não devem iniciar em numeros e não podem conter espaços em branco nunca usar os caracteres i e o
+# Para pacotes utilizar caracteres minusculos
+# A classe deve inciar a letra maiuscula e lembrar de utilizar camel case
+# Em funçoes e métodos utilizar _ para separar as palavras
+# Para constantes utilizar sempre maiusculas
+# Para parametros de função sempre minusculas e separado por _
+# uma variavel é sempre um objeto do tipo de dados que está sendo atribuido
